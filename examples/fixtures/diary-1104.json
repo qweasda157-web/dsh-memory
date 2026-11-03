@@ -1,0 +1,22 @@
+[
+  {
+    "id": "20261104-095512-b7c8",
+    "time": "09:55",
+    "saw": [
+      {
+        "what": "《城市夜里的三十六种声音》",
+        "where": "首页",
+        "author": "UP主C",
+        "link": "https://www.bilibili.com/video/BV1yy411c7mE"
+      }
+    ],
+    "actions": [{ "kind": "观看", "target": "《城市夜里的三十六种声音》", "detail": "看完了" }]
+  },
+  {
+    "id": "20261104-101133-d9e0",
+    "time": "10:11",
+    "saw": [{ "what": "一堆猫的视频", "where": "首页推荐" }],
+    "actions": [{ "kind": "打开页面", "target": "首页" }],
+    "felt": "这些猫的封面一个比一个无辜"
+  }
+]

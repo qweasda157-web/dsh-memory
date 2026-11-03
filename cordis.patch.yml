@@ -1,0 +1,18 @@
+# dsh-memory bundle patch。
+# 只 insert 一行：id 必须与 index.js 的 entryId 一致（memory），
+# name 必须与包名一致（dsh-memory），否则「装上了但页面 404/异常」。
+#
+# root 故意留空：空 = 用进程的工作目录(process.cwd())，这样谁装都能用。
+# 想指定别的位置（比如放到 DSH 自己的数据目录下）就填绝对路径，
+# 注意用正斜杠：YAML 里反斜杠是转义符。
+- insert:
+    - id: memory
+      name: 'dsh-memory'
+      config:
+        enabled: true
+        bootstrapDays: 3
+        root: ''
+        dir: .memory
+        tz: ''
+        order: 900
+        timeoutMs: 20000
